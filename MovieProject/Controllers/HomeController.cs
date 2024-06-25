@@ -2,7 +2,7 @@
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using MovieProject.Models;
-
+// test
 namespace MovieProject.Controllers
 {
 	public class HomeController : Controller
