@@ -14,8 +14,6 @@ namespace MovieProject.Controllers
 		{
 			Context = ctx;
 		}
-
-
 		public IActionResult Index()
 		{
 			var movies = Context.Movies.Include(m=>m.Genre).OrderBy(m => m.Name).ToList(); // ordering the list of movies with Name and return it to our view
